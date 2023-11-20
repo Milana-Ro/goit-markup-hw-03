@@ -77,6 +77,10 @@ border-bottom: 1px solid #e7e9fc
         letter-spacing: 0.54px;
         margin-right: 76px;
 }
+.header .logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 header .logo-text {
     color: #2E2F42;
 }
@@ -174,7 +178,7 @@ letter-spacing: 0.32px;
     display: flex;
     gap: 24px;
 }
-.list-item {
+.about .list-item {
 width: ((100% - 72px) / 4);
 }
 .about .list-title {
