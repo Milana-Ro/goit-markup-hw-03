@@ -25,13 +25,12 @@ img {
     width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
-        /* margin-left: 0;  */
-        /* margin-right: 0; */
         margin: 0 auto;
 }
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header {
 border-bottom: 1px solid #e7e9fc
@@ -45,8 +44,6 @@ border-bottom: 1px solid #e7e9fc
 .navigation {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     
 }
 .contacts .list {
@@ -64,6 +61,7 @@ border-bottom: 1px solid #e7e9fc
 .link {
     text-decoration: none;
     color: #2E2F42;
+    display: block;
 }
 .logo {
     text-decoration: none;
@@ -104,8 +102,6 @@ padding-bottom: 24px;
 }
 .contacts {
     font-style: normal;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 .contacts .link {
     color: #434455;
@@ -226,7 +222,8 @@ padding-bottom: 120px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
+width: calc((100% - 72px) / 4);
+    }
 .team-member .name {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -290,8 +287,6 @@ color: #2E2F42;
         letter-spacing: 0.4px;
         padding-top: 32px;
         margin-bottom: 8px;
-        padding-left: 16px;
-        padding-right: 16px;
 }
 .portfolio-list .list-text {
     color: #434455;
@@ -300,8 +295,6 @@ color: #2E2F42;
         line-height: 24px;
         letter-spacing: 0.32px;
         padding-bottom: 32px;
-        padding-left: 16px;
-        padding-right: 16px;
 }
 
 .footer {
@@ -311,7 +304,6 @@ color: #2E2F42;
 }
 .footer .logo {
 display: inline-block;
-margin-bottom: 16px;
 
 }
 footer .logo-text {
