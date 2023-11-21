@@ -89,11 +89,12 @@ color: #404BBF;
 }
 .navigation .link {
     color: #2E2F42;
-
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .navigation .link:active {
     color: #404BBF;
@@ -171,15 +172,24 @@ letter-spacing: 0.32px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.about h2 {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .about .list {
     display: flex;
     gap: 24px;
 }
 .about .list-item {
-width: ((100% - 72px) / 4);
+width: calc((100% - 72px) / 4);
 }
 .about .list-title {
     color: #2E2F42;
@@ -298,10 +308,7 @@ color: #2E2F42;
     padding-bottom: 100px;
     padding-top: 100px;
         background-color: #2E2F42;
-}
-.footer .container {
-
-}
+}s
 .footer .logo {
 display: inline-block;
 margin-bottom: 16px;
