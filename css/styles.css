@@ -303,7 +303,7 @@ color: #2E2F42;
 .footer .logo {
 display: inline-block;
 margin-bottom: 16px; 
-/* без цього марджина не пропускає бот, а правого мврджина нема */
+margin-right: 0;
 }
 footer .logo-text {
     color: #F4F4FD;
