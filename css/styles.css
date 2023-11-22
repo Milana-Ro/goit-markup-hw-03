@@ -285,7 +285,6 @@ color: #2E2F42;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
-        padding-top: 32px;
         margin-bottom: 8px;
 }
 .portfolio-list .list-text {
@@ -294,7 +293,6 @@ color: #2E2F42;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
-        padding-bottom: 32px;
 }
 
 .footer {
@@ -304,8 +302,8 @@ color: #2E2F42;
 }
 .footer .logo {
 display: inline-block;
-margin-bottom: 16px;
-
+margin-bottom: 16px; 
+/* без цього марджина не пропускає бот, а правого мврджина нема */
 }
 footer .logo-text {
     color: #F4F4FD;
